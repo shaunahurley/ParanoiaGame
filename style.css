@@ -3,6 +3,7 @@ html {
   width: 100%;
   background-color: #dfffd8;
   color: #95bdff;
+  text-align: center;
 }
 
 body {
@@ -15,6 +16,5 @@ button {
   background-color: #dfffd8;
   color: #95bdff;
   border: 5px solid #b4e4ff;
-  margin-left: .5em;
 }
 
