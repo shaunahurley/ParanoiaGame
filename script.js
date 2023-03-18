@@ -1,3 +1,4 @@
+// Questions to be asked as part of the game.
 //paranoia questions from: https://www.legit.ng/ask-legit/quotes-messages/1465536-100-paranoia-questions-a-fun-game-friends/
 const questions = [
   "Best road trip stories?",
@@ -23,10 +24,12 @@ const questions = [
 const coin = ["tell", "don't tell"];
 var count = 1
 
+// Brings user to the starting page of the game so they can grab their first prompt.
 function start(){
   window.location = "prompt.html"
 }
 
+// Grabs a random questions, displays it to the user, and deletes it from the list of possible questions.
 function randomQuestion(){
   if(questions.length == 0){
     var ranoutpara = document.getElementById("ranout");
@@ -39,6 +42,7 @@ function randomQuestion(){
   
 }
 
+// Flipping the coin and displaying the results, also displays a count of how many times the coin has been flipped.
 function flip(){
   var flippara = document.getElementById("flip");
   var countpara = document.getElementById("count");
