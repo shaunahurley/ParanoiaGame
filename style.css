@@ -1,0 +1,20 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #dfffd8;
+  color: #95bdff;
+}
+
+body {
+  font-family: 'Gill Sans', monospace
+}
+
+button {
+  font-size: 1.5em;
+  font-family: 'Gill Sans', monospace;
+  background-color: #dfffd8;
+  color: #95bdff;
+  border: 5px solid #b4e4ff;
+  margin-left: .5em;
+}
+
